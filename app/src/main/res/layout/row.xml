@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:elevation="10dp"
+        app:cardCornerRadius="7dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageUrl_Iv"
+                android:layout_width="wrap_content"
+                android:layout_height="150dp">
+
+            </ImageView>
+
+            <TextView
+                android:id="@+id/name_Tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Name:"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorAccent">
+        </TextView>
+            <TextView
+                android:id="@+id/real_name_Tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Real Name:"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorAccent">
+            </TextView>
+            <TextView
+                android:id="@+id/team_Tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Team:"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorAccent">
+            </TextView>
+            <TextView
+                android:id="@+id/createdby_Tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="CreatedBy:"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorAccent">
+            </TextView>
+            <TextView
+                android:id="@+id/publisher_Tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Publisher:"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorAccent">
+            </TextView>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
